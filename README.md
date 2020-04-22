@@ -11,6 +11,7 @@ Install Miniconda(using your user)
 (If you run into issues see: https://github.com/ncbi/amr/wiki/Install-with-bioconda)
 
 ```bash
+cd ~
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash ./Miniconda3-latest-Linux-x86_64.sh 
 source ~/.bashrc
