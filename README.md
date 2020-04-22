@@ -1,4 +1,6 @@
-# BIOI500
+# BIOI500 - AMRFinder, Resfinder, ARIBA comparison of Antibiotic Resistance Gene finding
+
+
 BIOI 500 project - Project is indeed a pipeline but meant to compare three tools. As such, development speed was prioritzed over reusability, modularity, and code readability. 
 
 # Installation instructions - AMRFinderPlus
