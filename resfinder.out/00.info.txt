@@ -1,0 +1,3 @@
+input fasta file:	resfinder_database.fa
+input tsv file:	resfinder_database.tsv
+genetic_code	11
