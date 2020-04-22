@@ -4,7 +4,8 @@ import itertools
 import pandas as pd
 import argparse
 
-
+# Ideally, this code could be made even more modular. Also, it could be made more efficient with threading and also GNU parallel since there's IO and separate CPU bound tasks.
+# No OOP necessary  
 def pairwise(iterable):
     a, b = itertools.tee(iterable)
     next(b, None)
