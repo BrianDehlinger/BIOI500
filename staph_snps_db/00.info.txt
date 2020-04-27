@@ -1,0 +1,3 @@
+input fasta file:	staph_a_snps.fsa
+input tsv file:	staph_a_metadata.tsv
+genetic_code	11

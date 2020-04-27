@@ -1,0 +1,28 @@
+ARIBA run with this command:
+/usr/local/bin/ariba prepareref prepareref -f resistance.fsa -m e_coli_metadata.tsv e_coli_snp_db
+from this directory: /homes/bdehlinger
+
+ARIBA version: 2.14.4
+
+External dependencies:
+bowtie2	2.2.9	/bowtie2-2.2.9/bowtie2
+cdhit	4.7	/usr/bin/cdhit-est
+nucmer	3.1	/usr/bin/nucmer
+
+External dependencies OK: True
+
+Python version:
+3.6.8 (default, Aug 20 2019, 17:12:48) 
+[GCC 8.3.0]
+
+Python packages:
+ariba	2.14.4	/usr/local/lib/python3.6/dist-packages/ariba-2.14.4-py3.6-linux-x86_64.egg/ariba/__init__.py
+bs4	4.8.0	/usr/local/lib/python3.6/dist-packages/beautifulsoup4-4.8.0-py3.6.egg/bs4/__init__.py
+dendropy	4.4.0	/usr/local/lib/python3.6/dist-packages/DendroPy-4.4.0-py3.6.egg/dendropy/__init__.py
+pyfastaq	3.17.0	/usr/local/lib/python3.6/dist-packages/pyfastaq-3.17.0-py3.6.egg/pyfastaq/__init__.py
+pymummer	0.10.3	/usr/local/lib/python3.6/dist-packages/pymummer-0.10.3-py3.6.egg/pymummer/__init__.py
+pysam	0.15.3	/usr/local/lib/python3.6/dist-packages/pysam-0.15.3-py3.6-linux-x86_64.egg/pysam/__init__.py
+
+Python packages OK: True
+
+Everything looks OK: True
