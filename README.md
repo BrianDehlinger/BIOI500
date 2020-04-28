@@ -6,7 +6,7 @@ BIOI 500 project - Project is indeed a pipeline but meant to compare three tools
 # Installation instructions - AMRFinderPlus
 Only Linux environments are supported and singularity is used to handle dependencies. 
 
-Install Miniconda(using your user)
+Install Miniconda(using your user not the root user)
 
 (If you run into issues see: https://github.com/ncbi/amr/wiki/Install-with-bioconda)
 
