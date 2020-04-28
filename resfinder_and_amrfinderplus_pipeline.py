@@ -17,7 +17,7 @@ if __name__ == '__main__':
     organism = args.organism
     amr_finder_organism = 'Escherichia' if organism == 'escherichia_coli' else 'Staphylococcus_aureus'
     genome_file_paths = os.listdir(genomes_directory)
-    for genome in genome_file_paths[0:2]:
+    for genome in genome_file_paths:
         if not os.path.exists(f'{output_directory}/{genome}'):
             if not os.path.exists(f'{output_directory}'):
                 os.mkdir(f'{output_directory}')
