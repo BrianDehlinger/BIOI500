@@ -57,7 +57,14 @@ rclone copy Data:Data/AA14 AA14/
 rclone copy Data:Data/protein protein_dataset/
 ```
 # Running the pipeline - Analysis
+
+The first command runs ARIBA on both E. coli and S. aureus dataset utilizing the reads.
+The second command runs Resfinder and AMRFinderPlus on the E. coli dataset from the goolgle drive utilizing the assemblies.
+The third command runs Resfinder and AMRFinderPlus on the S. aureus dataset from the google drive utilizing the assemblies.
+The analyze_amr command is meant to be run on the e_coli dataset results produced from the second command and summarizes resistance genes and phenotype predictions.
+The analyze_amr_staph.py is meant to be run with the staph_aureus dataset and is run with only two SNPs and two different MIC thresholds.
 ```
+python3 ariba_pipeline.py
 python3 pipeline.py --output e_coli_amr_analysis --genomes e_coli_genomes --organism escherichia_coli
 python3 pipeline.py --output staph_amr_analysis --genomes Genome/ --organism staphylococcus_aureus
 python3 analyze_amr.py --genomes e_coli_amr_analysis
@@ -65,7 +72,7 @@ python3 analyze_amr_staph.py --genomes staph_amr_analysis --mic 8 -ariba_only_tw
 python3 analyze_amr_staph.py --genomes staph_amr_analysis --mic 64 -ariba_only_two
 ```
 
-# Running the pipeline - Time 
+# Running the pipeline - Runtime test
  ```bash
 python3 time_test.py
 ```
